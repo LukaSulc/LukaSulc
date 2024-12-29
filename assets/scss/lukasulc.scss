@@ -1,31 +1,62 @@
-$primary-color: #2e3192 !default;
-$secondary-color: #00aeef !default;
+@media (prefers-color-scheme: light) {
+  $primary-color: #00aeef !default;
+  $secondary-color: #2e3192 !default;
 
-html body,
-body {
-  color: #fff !important;
-  background-color: $primary-color !important;
+  html body,
+  body {
+    background-color: $primary-color !important;
+  }
+
+  .profile-image img {
+    filter: drop-shadow(10px -10px 0 $secondary-color);
+  }
+
+  /* You can customize theme styles here */
+  .header .navbar-brand span:first-child {
+    color: $secondary-color !important;
+  }
+
+  .experience__company {
+    color: $secondary-color !important;
+  }
+
+  .post a {
+    color: $secondary-color !important;
+  }
 }
 
-.profile-image img {
-  filter: drop-shadow(10px -10px 0 $secondary-color);
-}
+@media (prefers-color-scheme: dark) {
+  $primary-color: #2e3192 !default;
+  $secondary-color: #00aeef !default;
+  html body,
+  body {
+    color: #fff !important;
+  }
+  html body,
+  body {
+    background-color: $primary-color !important;
+  }
 
-/* You can customize theme styles here */
-.header .navbar-brand span:first-child {
-  color: $secondary-color !important;
-}
+  .profile-image img {
+    filter: drop-shadow(10px -10px 0 $secondary-color);
+  }
 
-.experience__company {
-  color: $secondary-color !important;
+  /* You can customize theme styles here */
+  .header .navbar-brand span:first-child {
+    color: $secondary-color !important;
+  }
+
+  .experience__company {
+    color: $secondary-color !important;
+  }
+
+  .post a {
+    color: $secondary-color !important;
+  }
 }
 
 #experience,
 .blog {
   -webkit-box-flex: 1;
   flex: 1;
-}
-
-.post a {
-  color: $secondary-color !important;
 }
