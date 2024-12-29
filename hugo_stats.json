@@ -2,8 +2,6 @@
   "htmlElements": {
     "tags": [
       "a",
-      "article",
-      "aside",
       "body",
       "br",
       "button",
@@ -42,9 +40,7 @@
       "btn",
       "btn-block",
       "btn-frameless",
-      "btn-outline-secondary",
       "btn-primary",
-      "btn-sm",
       "col-12",
       "col-lg-4",
       "col-lg-6",
@@ -60,7 +56,6 @@
       "container",
       "container-experience",
       "container-fluid",
-      "content-browser",
       "current",
       "display-1",
       "education",
@@ -88,8 +83,6 @@
       "icon-square-github",
       "img-responsive",
       "lead",
-      "light-border-bottom",
-      "light-border-top",
       "list",
       "lozad",
       "mb-4",
@@ -111,10 +104,6 @@
       "navbar-toggler-icon",
       "p-0",
       "platform-links",
-      "post",
-      "post-content",
-      "post-meta",
-      "post-summary",
       "posts-list",
       "profile-image",
       "pt-2",
@@ -127,26 +116,20 @@
       "rad-showcase--index",
       "rad-waiting",
       "row",
-      "row--padded",
       "section",
       "section--border-bottom",
       "section-experience",
       "selected",
-      "summary",
       "text-center",
       "w-100"
     ],
     "ids": [
-      "blog-single",
       "breadcrumb-bar",
-      "date",
       "education",
       "experience",
       "header",
-      "meta",
       "navbarSupportedContent",
-      "showcase",
-      "wordcount"
+      "showcase"
     ]
   }
 }
