@@ -40,46 +40,28 @@ theme = "adritian-free-hugo-theme"
 
     [languages.en.menus]
       [[languages.en.menus.header]]
-        name = 'About'
-        URL = '#about'
-        weight = 2
-      [[languages.en.menus.header]]
-        name = 'Portfolio'
-        URL = '#portfolio'
-        weight = 3
-      #  [[languages.en.menus.header]]
-      #  name = "Experience"
-      #  URL = "#experience"
-      #  weight = 4
+        name = "Experience"
+        URL = "/experience"
+        weight = 4
 
       [[languages.en.menus.header]]
         name = "Blog"
         URL = "/blog"
         weight = 5
 
-      [[languages.en.menus.header]]
-        name = "Contact"
-        URL = "#contact"
-        weight = 6
-
       [[languages.en.menus.footer]]
-        name = "About"
-        URL = "#about"
-        weight = 2
-
-      [[languages.en.menus.footer]]
-        name = "Portfolio"
-        URL = "#portfolio"
-        weight = 3
-
-      [[languages.en.menus.footer]]
-        name = "Contact"
-        URL = "#contact"
+        name = "Experience"
+        URL = "/experience"
         weight = 4
+
+      [[languages.en.menus.footer]]
+        name = "Blog"
+        URL = "/blog"
+        weight = 5
 
 
   [languages.es]
-    disabled = false
+    disabled = true 
     languageCode = 'es'
     languageDirection = 'ltr'
     languageName = 'Español'
@@ -125,7 +107,7 @@ theme = "adritian-free-hugo-theme"
         weight = 4
 
   [languages.fr]
-    disabled = false
+    disabled = true
     languageCode = 'fr'
     languageDirection = 'ltr'
     languageName = 'Français'
@@ -195,3 +177,5 @@ theme = "adritian-free-hugo-theme"
   # SCSS Plugins
   [[params.plugins.scss]]
   URL = "scss/adritian.scss"
+  [[params.plugins.scss]]
+  URL = "scss/lukasulc.scss"

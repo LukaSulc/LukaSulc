@@ -1,0 +1,31 @@
+$primary-color: #2e3192 !default;
+$secondary-color: #00aeef !default;
+
+html body,
+body {
+  color: #fff !important;
+  background-color: $primary-color !important;
+}
+
+.profile-image img {
+  filter: drop-shadow(20px -20px 0 $secondary-color);
+}
+
+/* You can customize theme styles here */
+.header .navbar-brand span:first-child {
+  color: $secondary-color !important;
+}
+
+.experience__company {
+  color: $secondary-color !important;
+}
+
+#experience,
+.blog {
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+
+.post a {
+  color: $secondary-color !important;
+}

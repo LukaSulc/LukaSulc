@@ -1,0 +1,66 @@
+## Looking for strings? Check the i18n folder.
+
+# showcase
+showcase:
+  enable: true
+  image:
+    x: "images/profile.png"
+    _2x: "images/profile.png"
+  imageMobile:
+    x: "images/profile.png"
+
+  button:
+    icon: "icon-linkedin"
+    URL: "https://www.linkedin.com/in/luka-sulc/"
+
+# about
+about:
+  enable: false
+  button:
+    icon: "icon-user"
+    URL: "https://www.linkedin.com/in/adrianmoreno/"
+  image:
+    x: "images/about/user-picture.png"
+    _2x: "images/about/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  items:
+    - university: "University of Zagreb"
+      degree: "Master of Computer Science"
+
+    - university: "Pablo de Olavide University Sevilla"
+      degree: "Master of Computer Science"
+
+# experience
+## to hiden a button, set the icon to an empty string
+experience:
+  enable: true
+  button:
+    icon: "icon-linkedin"
+    URL: "https://www.linkedin.com/in/luka-sulc/"
+  button2:
+    icon: "icon-square-github"
+  button3:
+    icon: ""
+
+# Client & Work
+client_and_work:
+  enable: false
+
+# testimonial
+testimonial:
+  enable: false
+
+# contact
+contact:
+  enable: false
+  form:
+    action: "#"
+  button:
+    icon: "icon-email"
+
+# newsletter
+newsletter:
+  enable: false
