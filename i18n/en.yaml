@@ -1,0 +1,76 @@
+## Header
+- id: "logo_text1"
+  translation: "Luka"
+
+- id: "logo_text2"
+  translation: "Šulc"
+
+## Footer
+- id: "footer_notice"
+  translation: ""
+
+- id: "language"
+  translation: "Language"
+
+## Homepage head title
+- id: "head_title"
+  translation: "Luka Šulc | Software Engineer"
+
+- id: "head_description"
+  translation: "Luka Šulc is a software engineer with a passion for web development. He has 4 years of experience in building full stack applications using modern technologies such as Angular and Java Spring Boot."
+
+## Homepage showcase
+- id: "showcase_title"
+  translation: "Hello, I’m Luka."
+
+- id: "showcase_subtitle"
+  translation: "Software Engineer"
+
+- id: "showcase_description"
+  translation: "I'm a Computer Scientist graduated from University of Zagreb. My academic experience revolved around Machine Learning and Artificial Intelligence as well as Robotics and Optimization.<br>Professionally, I've taken another path working as a Software Engineer. I've worked in the financial sector as an Angular & Spring Boot Developer and I'm currently working as a Full Stack Developer at <a target='_blank' href='https://suprabit.eu/'>Suprabit</a>.<br> My volunteering experience in <a target='_blank' href='https://www.linkedin.com/company/esn-croatia'>Erasmus Student Network</a> combined with one semester abroad helped me develop problem solving skills, inclusive mindset and proficiency in English."
+
+- id: "showcase_button"
+  translation: "LinkedIn"
+
+  ## not visible but used for accessibility
+- id: "showcase_image_alt"
+  translation: "A picture of Luka Šulc, Software Engineer"
+
+## Homepage education
+- id: "education_title"
+  translation: "Education"
+
+## Homepage experience
+- id: "experience_title"
+  translation: "Experience"
+
+- id: "experience_description"
+  translation: "I have 7 years of coding experience with 3.5 years of professional development. My main technologies are Angular and Spring Boot but I also have experience with Python, Django, C and ROS."
+
+- id: "experience_button"
+  translation: "LinkedIn"
+
+- id: "experience_button_url"
+  translation: "https://www.linkedin.com/in/adrianmoreno/"
+
+- id: "experience_button2"
+  translation: "GitHub"
+
+- id: "experience_button2_url"
+  translation: "https://github.com/lukasulc"
+
+- id: "experience_button3"
+  translation: "View all"
+
+- id: "experience_button3_url"
+  translation: "/experience"
+
+## Blog
+- id: "read_more"
+  translation: "Read more"
+
+- id: "published_on"
+  translation: "Published on"
+
+- id: "continue_reading"
+  translation: "Continue reading"
