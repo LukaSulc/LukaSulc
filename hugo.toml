@@ -10,6 +10,8 @@ theme = "adritian-free-hugo-theme"
   sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
   homepageExperienceCount = 6
+    
+  math = true
 
   # controls vercel page insights - disabled by default
   vercelPageInsights = false
@@ -21,6 +23,7 @@ theme = "adritian-free-hugo-theme"
   [params.google_tag_manager]
       code = "GTM-XXXXX"
       enabled = false
+
 
 [build]
   [build.buildStats]
@@ -179,3 +182,12 @@ theme = "adritian-free-hugo-theme"
   URL = "scss/adritian.scss"
   [[params.plugins.scss]]
   URL = "scss/lukasulc.scss"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]

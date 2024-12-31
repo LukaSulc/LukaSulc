@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: light) {
-  $primary-color: #00aeef !default;
+  $primary-color: #bfd9e6 !default;
   $secondary-color: #2e3192 !default;
 
   html body,
@@ -56,7 +56,17 @@
 }
 
 #experience,
+#blog-single,
 .blog {
   -webkit-box-flex: 1;
   flex: 1;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+blockquote {
+  margin: revert;
 }
