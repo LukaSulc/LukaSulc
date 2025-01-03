@@ -99,16 +99,18 @@ yields an income of 23,400, and the final salary of 1600.
 
 ## Salary analysis ([graph](https://www.desmos.com/calculator/aclgaivf9o))
 
-My analysis was done using an online math tool [Desmos](https://www.desmos.com/calculator/aclgaivf9o) so feel free to follow along if the images are not clear. When you get a grasp of what’s going on, you can even change the parameters to do the analysis yourself. For now, it’s important to note that the **x axis** is representing the number of months while the **y axis** is representing the amount of income accumulated over \(x\) months.
+My analysis was done using an online math tool [Desmos](https://www.desmos.com/calculator/aclgaivf9o) so feel free to follow along if the images are not clear. When you get a grasp of what’s going on, you can even change the parameters to do the analysis yourself. For now, it’s important to note that the **x axis** is representing the number of months while the **y axis** is representing the amount of income accumulated over \(x\) months. Blue graph represents Ana’s income, red is Bob and green is Chris.
 
 The models can be analyzed in two ways:
 
-- Compare each of the models graphically to get a visual picture on how fast they accumulate income compared to each other
+- Compare each of them graphically to get a visual picture on how fast they accumulate income compared to each other
 - Calculate how much income each of them yields after a period of time
+
+Both Bob and Chris will get their salary increase in periodic intervals which accurately reflects real life.
 
 #### Considerations
 
-Comparing the models (with the same base salary), it’s obvious that model A will perform the worst, while the performance of models B and C will depend on the aforementioned parameters. We could analyse which of the two is better but I think it can portray a wrong picture about the real life situation. Taking into account that our time interval is limited (not planning to work forever), salaries usually hit a ceil at some point (don’t expect to get a raise beyond a certain point) and performance of both models strongly depends on the parameters (Bob having a 5% periodical increase will have a very slow progression compared to Chris getting 300 increase flat).
+Comparing the models (with the same base salary), it’s obvious that model A will perform the worst, whereas the performance of models B and C will depend on the aforementioned parameters. We could analyse which of the two is better but I think it can portray a wrong picture about the real life situation. Taking into account that our time interval is limited (not planning to work forever), salaries usually hit a ceil at some point (don’t expect to get a raise beyond a certain point) and performance of both models strongly depends on the parameters (Bob having a 5% periodical increase will have a very slow progression compared to Chris getting 300 increase flat).
 
 <!-- prettier-ignore -->
 To better portray differences between each of the graphs, some of the **parameters will stay fixed** and x and y coordinates will stay in the **same range**. There’s no point in letting Ana have the same starting salary as Bob and Chris so let’s level the playing field. Ana gets a salary of \(B_{const}=1500\), Bob and Chris start from \(B_{0}=1000\) and they get a raise every \( l_{raiseFreq}=6\) months.
