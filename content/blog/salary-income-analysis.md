@@ -97,9 +97,9 @@ C(18) &= 6 \cdot (1000\ +\ 0 \cdot 300)\ +\ 6 \cdot (1000\ +\ 1 \cdot 300)\ +\ 6
 
 yields an income of 23,400, and the final salary of 1600.
 
-## Salary analysis ([graph](https://www.desmos.com/calculator/aclgaivf9o))
+## Salary analysis ([graph](https://www.desmos.com/calculator/uixpwbv76j))
 
-My analysis was done using an online math tool [Desmos](https://www.desmos.com/calculator/aclgaivf9o) so feel free to follow along if the images are not clear. When you get a grasp of what’s going on, you can even change the parameters to do the analysis yourself. For now, it’s important to note that the **x axis** is representing the number of months while the **y axis** is representing the amount of income accumulated over \(x\) months. Blue graph represents Ana’s income, red is Bob and green is Chris.
+My analysis was done using an online math tool [Desmos](https://www.desmos.com/calculator/uixpwbv76j) so feel free to follow along if the images are not clear. When you get a grasp of what’s going on, you can even change the parameters to do the analysis yourself. For now, it’s important to note that the **x axis** is representing the number of months while the **y axis** is representing the amount of income accumulated over \(x\) months. Blue graph represents Ana’s income, red is Bob and green is Chris.
 
 The models can be analyzed in two ways:
 
